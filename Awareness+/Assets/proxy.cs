@@ -39,7 +39,7 @@ public class proxy : MonoBehaviour
             int idProcedure = Convert.ToInt32(data);
             if (idProcedure == 0)
             {
-                SceneManager.LoadScene("PrincipalMenu");
+                SceneManager.LoadScene("NoProcedureOnAppWeb");
             }
             else {
                 SceneManager.LoadScene("FirstScene");
