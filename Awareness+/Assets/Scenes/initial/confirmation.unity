@@ -515,6 +515,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1561921163}
+  - component: {fileID: 1561921164}
   m_Layer: 0
   m_Name: ServiceHololensComunicationProxy
   m_TagString: Untagged
@@ -536,6 +537,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1561921164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561921162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f5213b6f8ee4634b98fea1b2e1aa510, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1642382735
 GameObject:
   m_ObjectHideFlags: 0
@@ -878,9 +891,9 @@ MonoBehaviour:
   OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 216913406}
-        m_TargetAssemblyTypeName: StartMenu, Assembly-CSharp
-        m_MethodName: startProcedureScene
+      - m_Target: {fileID: 1561921164}
+        m_TargetAssemblyTypeName: proxy, Assembly-CSharp
+        m_MethodName: Status
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
