@@ -29,6 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/initial/NoProcedureOnAppWeb.unity
     guid: 00bba50acc955ab428b9014ff5bbe812
+  - enabled: 1
+    path: Assets/Scenes/ExtraInfo/ConnectionConfiguration.unity
+    guid: a8beb17aad632904fa03403ffa74704c
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 467d813957927c54cb59177f22c53e66, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 0f88ea990099c9145a340817c518d643, type: 2}
