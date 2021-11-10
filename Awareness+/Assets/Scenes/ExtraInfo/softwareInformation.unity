@@ -232,6 +232,7 @@ GameObject:
   - component: {fileID: 516062828}
   - component: {fileID: 516062833}
   - component: {fileID: 516062832}
+  - component: {fileID: 516062831}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -304,6 +305,29 @@ Transform:
   m_Father: {fileID: 397353345}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &516062831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516062827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf98dd1206224111a38765365e98e207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lockCursorWhenFocusLocked: 1
+  setCursorInvisibleWhenFocusLocked: 0
+  maxGazeCollisionDistance: 10
+  raycastLayerMasks:
+  - serializedVersion: 2
+    m_Bits: 4294967291
+  stabilizer:
+    storedStabilitySamples: 60
+  gazeTransform: {fileID: 0}
+  minHeadVelocityThreshold: 0.5
+  maxHeadVelocityThreshold: 2
 --- !u!114 &516062832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -412,7 +436,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83d9acc7968244a8886f3af591305bcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeProfile: {fileID: 11400000, guid: 5083f18ea410b2647b83467038c8abec, type: 2}
+  activeProfile: {fileID: 11400000, guid: 678a0ff5c38b3df4aa6ea02231cf009e, type: 2}
 --- !u!4 &1381778180
 Transform:
   m_ObjectHideFlags: 0
@@ -1241,9 +1265,9 @@ MonoBehaviour:
   faceUserDefinedTargetTransform: 0
   targetToFace: {fileID: 0}
   pivotAxis: 7
-  minDistance: 0.3
-  maxDistance: 0.9
-  defaultDistance: 0.7
+  minDistance: 0.2
+  maxDistance: 0.6
+  defaultDistance: 0.5
   maxViewHorizontalDegrees: 30
   maxViewVerticalDegrees: 30
   reorientWhenOutsideParameters: 1

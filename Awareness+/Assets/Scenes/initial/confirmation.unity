@@ -184,7 +184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 061c7db98c6c32a48bac096825114172, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: FirstScene
+  scene: ProcedureScene
 --- !u!4 &216913407
 Transform:
   m_ObjectHideFlags: 0
@@ -228,7 +228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83d9acc7968244a8886f3af591305bcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeProfile: {fileID: 11400000, guid: 1d8317e0e8d043748ab955099f00bf7a, type: 2}
+  activeProfile: {fileID: 11400000, guid: 678a0ff5c38b3df4aa6ea02231cf009e, type: 2}
 --- !u!4 &396868067
 Transform:
   m_ObjectHideFlags: 0
@@ -1099,7 +1099,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 593448398849304599}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.0403, z: -0.009}
+  m_LocalPosition: {x: 0, y: -0.0403, z: -0.008}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7168696579342655775}
@@ -2593,7 +2593,7 @@ Transform:
   m_GameObject: {fileID: 2680377480350199558}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.2}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children:
   - {fileID: 7437779591060959184}
   - {fileID: 7468319300845406214}
@@ -2877,8 +2877,8 @@ MonoBehaviour:
   smoothing: 1
   lifetime: 0
   targetViewPercentV: 0.24
-  minDistance: 0.4
-  maxDistance: 2
+  minDistance: 0.5
+  maxDistance: 0.6
   minScale: 0.01
   maxScale: 100
   scaleBuffer: 0.01
@@ -3584,7 +3584,7 @@ GameObject:
   - component: {fileID: 670727989157187015}
   - component: {fileID: 7349722834905974121}
   m_Layer: 0
-  m_Name: ButtonTwoA
+  m_Name: confirmation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4084,7 +4084,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6961661645128049270}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.008200049}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2680377480350199557}
@@ -4158,7 +4158,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 190946824010568047}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.008200049}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2680377480350199557}
@@ -4766,9 +4766,9 @@ MonoBehaviour:
   faceUserDefinedTargetTransform: 0
   targetToFace: {fileID: 0}
   pivotAxis: 7
-  minDistance: 0.3
-  maxDistance: 0.9
-  defaultDistance: 0.7
+  minDistance: 0.35
+  maxDistance: 0.5
+  defaultDistance: 0.45
   maxViewHorizontalDegrees: 30
   maxViewVerticalDegrees: 30
   reorientWhenOutsideParameters: 1
