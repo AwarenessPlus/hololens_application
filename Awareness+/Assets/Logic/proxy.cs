@@ -28,9 +28,11 @@ public class proxy : MonoBehaviour
 
     public IEnumerator CheckStatus() {
         UnityWebRequest www = UnityWebRequest.Get("https://hololenscommunicationserviceawareness.azurewebsites.net/api/hololens-communication-service/obtain-procedure-data");
+        www.timeout = 1;
         yield return www.SendWebRequest();
         if (www.result != UnityWebRequest.Result.Success)
         {
+            SceneManager.LoadScene("NoConnectionToServiceHololensComunication");
             Debug.Log(www.error);
         }
         else

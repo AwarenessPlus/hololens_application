@@ -1122,7 +1122,7 @@ GameObject:
   - component: {fileID: 8991958393561368798}
   - component: {fileID: 4730351328613027968}
   m_Layer: 0
-  m_Name: DialogSmall_192x96
+  m_Name: Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

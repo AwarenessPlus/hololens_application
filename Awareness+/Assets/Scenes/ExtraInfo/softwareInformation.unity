@@ -857,9 +857,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This improves how clearly you see holograms and makes viewing them more
-    comfortable. Please note this calibration will only work for you, and this data
-    is only used on this device.
+  m_text: "Awareness+ es una aplicaci\xF3n cuyo proposito principal es brindar un
+    apoyo a los medicos residentes durante la ejecuci\xF3n de procedimientos m\xE9dicos
+    simulados. Esta aplicaci\xF3n se encarga de mostrar en tiempo real la informaci\xF3n
+    proveniente de un monitor de signos vitales con el fin de que el usuario no tenga
+    que retirar la vista del paciente."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6a84f857bec7e7345843ae29404c57ce, type: 2}
   m_sharedMaterial: {fileID: 21202819797275496, guid: 6a84f857bec7e7345843ae29404c57ce, type: 2}
@@ -886,14 +888,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.06
-  m_fontSizeBase: 0.06
+  m_fontSize: 0.075
+  m_fontSizeBase: 0.075
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 8
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
