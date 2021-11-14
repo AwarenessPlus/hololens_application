@@ -52,7 +52,7 @@ public class GetVitalSigns : MonoBehaviour
 
     IEnumerator GetTextureSaturation() {
         UnityWebRequest www = UnityWebRequestTexture.GetTexture(baseUrl + "saturation");
-        www.timeout = 1;
+        www.timeout = 5;
         yield return www.SendWebRequest();
         if (www.result != UnityWebRequest.Result.Success) {
             Debug.Log(www.error);
@@ -69,7 +69,7 @@ public class GetVitalSigns : MonoBehaviour
     IEnumerator GetTextureCardiactFrecuency()
     {
         UnityWebRequest www = UnityWebRequestTexture.GetTexture(baseUrl + "cardiac-frecuency");
-        www.timeout = 1;
+        www.timeout = 5;
         yield return www.SendWebRequest();
         if (www.result != UnityWebRequest.Result.Success)
         {
@@ -88,7 +88,7 @@ public class GetVitalSigns : MonoBehaviour
     IEnumerator GetTextureNonInvasiveBloodPreasure()
     {
         UnityWebRequest www = UnityWebRequestTexture.GetTexture(baseUrl + "non-invasive-blood-presure");
-        www.timeout = 1;
+        www.timeout = 5;
         yield return www.SendWebRequest();
         if (www.result != UnityWebRequest.Result.Success)
         {
