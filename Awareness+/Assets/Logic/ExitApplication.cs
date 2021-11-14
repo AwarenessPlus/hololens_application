@@ -25,6 +25,14 @@ public class ExitApplication : MonoBehaviour
     public IEnumerator closeApplicationExecute()
     {
         UnityWebRequest www = UnityWebRequest.Get("https://hololenscommunicationserviceawareness.azurewebsites.net/api/hololens-communication-service/disconnect-hololens");
+        UnityWebRequest www2 = UnityWebRequest.Get("https://awarenessmonitorscomunication.azurewebsites.net/disconnect");
+        www.timeout = 1;
+        yield return www2.SendWebRequest();
+        if (www.result != UnityWebRequest.Result.Success)
+        {
+            
+            Debug.Log(www.error);
+        }
         yield return www.SendWebRequest();
         if (www.result != UnityWebRequest.Result.Success)
         {
