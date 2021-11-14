@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/initial/confirmation.unity
     guid: cc5213f7e5ee7ae468ec5b4e9f2cb750
   - enabled: 1
-    path: Assets/Scenes/FirstScene.unity
+    path: Assets/Scenes/Procedure/ProcedureScene.unity
     guid: 8ab6315951344a74da0301a7211d4c3d
   - enabled: 1
     path: Assets/Scenes/ExtraInfo/softwareInformation.unity
@@ -24,8 +24,20 @@ EditorBuildSettings:
     path: Assets/Scenes/ExtraInfo/HealthInformation.unity
     guid: 8f419910685e56b4b9f63b9ed63ebc2a
   - enabled: 1
-    path: Assets/Scenes/EndProcedure.unity
+    path: Assets/Scenes/Procedure/EndProcedure.unity
     guid: 7fff5060efb802543bd3bca52696b53d
+  - enabled: 1
+    path: Assets/Scenes/initial/NoProcedureOnAppWeb.unity
+    guid: 00bba50acc955ab428b9014ff5bbe812
+  - enabled: 1
+    path: Assets/Scenes/ExtraInfo/ConnectionConfiguration.unity
+    guid: a8beb17aad632904fa03403ffa74704c
+  - enabled: 1
+    path: Assets/Scenes/Warnings/NoConnectionToServiceHololensComunication.unity
+    guid: 7e016349d0552fa42b206fd6755e2bba
+  - enabled: 1
+    path: Assets/Scenes/Warnings/NoConnectionToMonitor.unity
+    guid: c258ddb2553dae84aabccb9c59a4a3ec
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 467d813957927c54cb59177f22c53e66, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 0f88ea990099c9145a340817c518d643, type: 2}
